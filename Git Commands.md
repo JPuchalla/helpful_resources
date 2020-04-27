@@ -8,43 +8,61 @@
 
 #### Enables helpful colorization of command line output:
 
-`git config --global color.ui auto`
+```javascript 
+git config --global color.ui auto
+```
 
 #### Sets the email you want attached to your commit transactions:
 
-`git config --global user.email "[email address]"`
+```javascript
+git config --global user.email "[email address]"
+```
 
 #### Sets the name you want attached to your commit transactions:
 
-`git config --global user.name "[name]"`
+```javascript 
+git config --global user.name "[name]"
+```
 
 ## Create repositories
 
 #### Turn an existing directory into a git repository:
 
-`git init`
+```javascript 
+git init
+```
 
 #### Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits:
 
-`git clone [url]`
+```javascript 
+git clone [url]
+```
 
 ## Synchronize changes
 
 #### Uploads all local branch commits to GitHub:
 
-`git push`
+```javascript 
+git push
+```
 
 #### Combines remote tracking branch into current local branch:
 
-`git merge`
+```javascript 
+git merge
+```
 
 #### Downloads all history from the remote tracking branches:
 
-`git fetch`
+```javascript 
+git fetch
+```
 
 #### Updates your current local working branch with all new commits from the corresponding remote branch on GitHub:
 
-`git pull`
+```javascript 
+git pull
+```
 
  * `git pull` is a combination of `git fetch` and `git merge`
 
@@ -52,59 +70,85 @@
 
 #### Checks current branch:
 
-`git status`
+```javascript
+git status
+```
 
 #### Deletes the specified branch:
 
-`git branch -d [branch-name]`
+```javascript 
+git branch -d [branch-name]
+```
 
 #### Combines the specified branch’s history into the current branch:
 
-`git merge [branch]`
+```javascript 
+git merge [branch]
+```
 
 #### Switches to the specified branch and updates the working directory:
 
-`git checkout [branch-name]`
+```javascript 
+git checkout [branch-name]
+```
 
 #### Creates a new branch:
 
-`git branch [branch-name]`
+```javascript 
+git branch [branch-name]
+```
 
 ## Make changes
 
 #### Lists version history for the current branch:
 
-`git log`
+```javascript 
+git log
+```
 
 #### Lists version history for a file, including renames:
 
-`git log --follow [file]`
+```javascript 
+git log --follow [file]
+```
 
 #### Shows content differences between two branches:
 
-`git diff [first-branch]...[second-branch]`
+```javascript 
+git diff [first-branch]...[second-branch]
+```
 
 #### Outputs metadata and content changes of the specified commit:
 
-`git show [commit]`
+```javascript 
+git show [commit]
+```
 
 #### Snapshots the file in preparation for versioning:
 
-`git add [file]`
+```javascript 
+git add [file]
+```
 
 #### Records file snapshots permanently in version history:
 
-`git commit -m "[descriptive message]"`
+```javascript 
+git commit -m "[descriptive message]"
+```
 
 ## Redo commits
 
 #### Undoes all commits after [commit], preserving changes locally:
 
-`git reset [commit]`
+```javascript 
+git reset [commit]
+```
 
 #### Discards all history and changes back to the specified commit:
 
-`git reset --hard [commit]`
+```javascript 
+git reset --hard [commit]
+```
 
 * CAUTION! Changing history can have nasty side effects. If you
   need to change commits that exist on GitHub (the remote),
