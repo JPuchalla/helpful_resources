@@ -1,4 +1,4 @@
-# helpful_resources
+# Helpful Resources
 
 Compilation of .md files for quick referencing
 
