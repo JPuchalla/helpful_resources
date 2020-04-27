@@ -8,19 +8,19 @@
 
 #### Enables helpful colorization of command line output:
 
-```javascript 
+```swift
 git config --global color.ui auto
 ```
 
 #### Sets the email you want attached to your commit transactions:
 
-```javascript
+```swift
 git config --global user.email "[email address]"
 ```
 
 #### Sets the name you want attached to your commit transactions:
 
-```javascript 
+```swift
 git config --global user.name "[name]"
 ```
 
@@ -28,13 +28,13 @@ git config --global user.name "[name]"
 
 #### Turn an existing directory into a git repository:
 
-```javascript 
+```swift
 git init
 ```
 
 #### Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits:
 
-```javascript 
+```swift
 git clone [url]
 ```
 
@@ -42,25 +42,25 @@ git clone [url]
 
 #### Uploads all local branch commits to GitHub:
 
-```javascript 
+```swift
 git push
 ```
 
 #### Combines remote tracking branch into current local branch:
 
-```javascript 
+```swift
 git merge
 ```
 
 #### Downloads all history from the remote tracking branches:
 
-```javascript 
+```swift
 git fetch
 ```
 
 #### Updates your current local working branch with all new commits from the corresponding remote branch on GitHub:
 
-```javascript 
+```swift
 git pull
 ```
 
@@ -70,31 +70,31 @@ git pull
 
 #### Checks current branch:
 
-```javascript
+```swift
 git status
 ```
 
 #### Deletes the specified branch:
 
-```javascript 
+```swift
 git branch -d [branch-name]
 ```
 
 #### Combines the specified branch’s history into the current branch:
 
-```javascript 
+```swift
 git merge [branch]
 ```
 
 #### Switches to the specified branch and updates the working directory:
 
-```javascript 
+```swift
 git checkout [branch-name]
 ```
 
 #### Creates a new branch:
 
-```javascript 
+```swift
 git branch [branch-name]
 ```
 
@@ -102,37 +102,37 @@ git branch [branch-name]
 
 #### Lists version history for the current branch:
 
-```javascript 
+```swift
 git log
 ```
 
 #### Lists version history for a file, including renames:
 
-```javascript 
+```swift
 git log --follow [file]
 ```
 
 #### Shows content differences between two branches:
 
-```javascript 
+```swift
 git diff [first-branch]...[second-branch]
 ```
 
 #### Outputs metadata and content changes of the specified commit:
 
-```javascript 
+```swift
 git show [commit]
 ```
 
 #### Snapshots the file in preparation for versioning:
 
-```javascript 
+```swift
 git add [file]
 ```
 
 #### Records file snapshots permanently in version history:
 
-```javascript 
+```swift
 git commit -m "[descriptive message]"
 ```
 
@@ -140,13 +140,13 @@ git commit -m "[descriptive message]"
 
 #### Undoes all commits after [commit], preserving changes locally:
 
-```javascript 
+```swift
 git reset [commit]
 ```
 
 #### Discards all history and changes back to the specified commit:
 
-```javascript 
+```swift
 git reset --hard [commit]
 ```
 
